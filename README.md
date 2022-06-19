@@ -111,6 +111,10 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+--There is no difference between relational databases and SQL. However, there are non-realtional (NoSQL). Relatoinal databases are databases based on the relations between the data models.
 2. Why do tables need a Primary Key?
+--A primary key is necessary to identify row uniquely and unrelated to the data.
 3. What is the name given to a table column that references the Primary Key on another table?
+-A foreign key
 4. What do we need in order to have a _many to many_ relationship between two tables?
+-In order to have a 'many-to-many' relationship there needs to be multiple records in one table that are related to multiple recored in a different table.
