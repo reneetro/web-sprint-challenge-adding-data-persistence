@@ -22,13 +22,11 @@ async function getById(id) {
         project_completed: project.project_completed ? true : false
         
     }
-    console.log(adjustedProject)
     return adjustedProject
 }
 
 async function create(project) {
     const [id] = await db('projects').insert(project)
-    console.log(project)
     return getById(id);
 }
 
